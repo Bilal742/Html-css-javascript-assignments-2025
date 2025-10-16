@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Form</title>
+</head>
+
+<body>
+  <div style="display: flex; justify-content: center">
+    <div style="padding-right: 5px">
+      <h1 style="background-color: lightgreen; padding: 10px 10px">
+        Step 1: Account
+      </h1>
+    </div>
+    <div style="padding-right: 5px">
+      <h1 style="background-color: lightgreen; padding: 10px 10px">
+        Step 2: Personal Details
+      </h1>
+    </div>
+    <div>
+      <h1 style="background-color: lightblue; padding: 10px 10px">
+        Step 3: Your Review
+      </h1>
+    </div>
+  </div>
+
+  <div style="padding-left: 320px; padding-right: 320px">
+    <fieldset>
+      <legend style="font-size: 35px">Your Review</legend>
+
+      <form action="./index4.html" method="POST" style="font-size: 22px">
+
+        <label for="aaa">How did you hear about us?</label>
+
+        <select name="" id="aaa">
+          <option selected disabled value="">How did you hear about us?</option>
+          <option value="">WAM</option>
+          <option value="">ID</option>
+          <option value="">FM</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <label for="">Would you visit again?</label>
+        <br>
+        <input required type="radio" name="aaa" id="">
+        Yes
+        <input required type="radio" name="aaa" id="">
+        No
+        <input required type="radio" name="aaa" id="">
+        Maybe
+        <br>
+        <br>
+        <br>
+        <label for="bbb">Comments</label>
+        <br>
+        <textarea required rows="15" cols="35" name="" id="bbb"></textarea>
+        <br>
+        <br>
+        <label for="">Documents:</label>
+        <br>
+        <input required type="file" name="" id="">
+        <br>
+        <br>
+        <input required type="checkbox" name="" id="">
+        Sign me up for email address
+        <br>
+        <br>
+        <a href="index2.html"><img width="150px" src="./Img/back.png" alt=""></a>
+
+        <button style="padding: 0%; background-color: transparent; border: 0;"><img src="./Img/submit.png" alt="" width="150"/></button>
+
+      </form>
+    </fieldset>
+  </div>
+</body>
+
+</html>

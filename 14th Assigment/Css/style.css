@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar section */
+.logo img {
+  height: 45px;
+  margin-left: 23px;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgb(247, 247, 247);
+  box-shadow: rgba(0, 0, 0, 0.2) 5px 1px 8px;
+}
+
+#navbar ul {
+  display: flex;
+}
+
+#navbar ul li {
+  list-style: none;
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  padding-right: 35px;
+  color: gray;
+  font-size: 16px;
+}
+
+/* Form section */
+#form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(247, 247, 247);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 20px 0px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 30px;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+#form h1 {
+  color: #006838;
+  padding-top: 30px;
+  font-size: 2rem;
+}
+
+#form span {
+  color: red;
+  padding-left: 2px;
+}
+
+/* Select section */
+#select {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 55px;
+  padding-left: 100px;
+}
+
+.select-box {
+  margin-top: 12px;
+  border: none;
+  border-bottom: 1px solid #006838;
+  background-color: initial;
+  outline: none;
+  padding: 5px;
+  width: 110%;
+  color: #000;
+  font-size: 17px;
+}
+
+.select-group {
+  margin-right: 120px;
+}
+
+.select-file {
+  display: flex;
+  flex-direction: column;
+}
+
+.select-file input {
+  border: 1px dotted rgb(0, 104, 56);
+  padding: 25px;
+  width: 140%;
+}
+
+.select-file label {
+  font-weight: bold;
+}
+
+/* Button section */
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 55px;
+  margin-bottom: 80px;
+}
+
+.btn {
+  background-color: rgb(0, 104, 56);
+  width: 300px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}

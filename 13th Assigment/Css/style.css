@@ -1,0 +1,287 @@
+/* Css Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Home section */
+#home {
+  display: flex;
+  justify-content: space-between;
+}
+
+#home .home-box2 {
+  display: flex;
+  margin-top: 20px;
+}
+
+#home .home-box2 .box {
+  box-shadow: 0 0 5px black;
+  border-radius: 7px;
+  padding: 12px 20px;
+  font-size: large;
+  margin-right: 20px;
+}
+
+#home .home-box2 .box input {
+  font-size: 20px;
+}
+
+/* Search section */
+.search {
+  position: relative;
+  width: 160%;
+  margin-top: 20px;
+}
+
+.search .srch {
+  width: 45%;
+  border: none;
+  padding: 13px;
+  padding-right: 60px;
+  border-radius: 10px;
+  padding-left: 45px;
+  outline: none;
+  font-size: 16px;
+  box-shadow: 0 0 10px black;
+  margin-left: 23px;
+}
+.search .img {
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  width: 60%;
+  padding: 4px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Index section */
+#index {
+  display: flex;
+}
+
+.index-box {
+  padding: 10px;
+  display: flex;
+  box-shadow: 0 0 10px black;
+  width: 26%;
+  margin-top: 23px;
+  margin-left: 23px;
+  border-radius: 10px;
+}
+
+.index-box select {
+  border: none;
+  outline: none;
+}
+
+.index-box img {
+  height: 18px;
+  padding-right: 10px;
+}
+
+.index-box label {
+  padding-right: 300px;
+  color: #167f92;
+}
+
+/* Table thead section */
+#table table {
+  margin-left: 23px;
+  margin-right: 32px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 10px black;
+  border-radius: 12px 12px 0 0;
+  text-align: center;
+}
+
+#table table thead {
+  display: flex;
+  background-color: #167f92;
+  color: white;
+  padding-top: 12px;
+  padding-bottom: 35px;
+  border-radius: 12px 12px 0 0;
+}
+
+#table table tr th {
+  padding-right: 20px;
+  font-size: 18px;
+}
+
+#table table .tr1 {
+  padding-right: 20px;
+  padding-left: 15px;
+}
+
+#table table .tr2 {
+  padding-left: 40px;
+}
+
+#table table .tr3 {
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+#table table .tr4 th {
+  padding-left: 20px;
+}
+
+/* Text section */
+#text-container {
+  margin-left: 23px;
+  margin-right: 32px;
+  box-shadow: 0 0 10px black;
+}
+
+#text {
+  display: flex;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.text-box1 {
+  display: flex;
+  margin-left: 35px;
+}
+
+.text-box2 {
+  margin-left: 85px;
+}
+
+.text-box3 {
+  margin-left: 85px;
+}
+
+.text-box3 h1 {
+  color: #167f92;
+}
+
+.text-box4 {
+  margin-left: 125px;
+  display: flex;
+}
+
+.text-box4 h1 {
+  padding-right: 40px;
+  color: gray;
+  font-size: 20px;
+}
+
+.text-box5 {
+  display: flex;
+  margin-left: 15px;
+  border: 1px solid rgb(219, 219, 219);
+  height: 30px;
+  border-radius: 50px;
+}
+
+.text-box5 p {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 29px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.text-box5 span {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 29px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.text-box6 {
+  display: flex;
+  margin-left: 85px;
+}
+
+.text-box6 i {
+  background-color: #167f92;
+  color: white;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 12px;
+  height: 12px;
+}
+
+.text-box6 p {
+  margin-left: 60px;
+  font-weight: bold;
+}
+#fa-solid {
+  margin-left: 90px;
+}
+
+#fa-star {
+  margin-left: 60px;
+}
+
+#fa-heart {
+  margin-left: 80px;
+}
+
+/* Footer section */
+#table2 table {
+  margin-left: 23px;
+  margin-right: 32px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 10px black;
+  border-radius: 0 0 12px 12px;
+  text-align: center;
+}
+
+#table2 table tfoot {
+  display: flex;
+  background-color: #167f92;
+  color: white;
+  padding-bottom: 35px;
+  border-radius: 0 0 12px 12px;
+  padding-top: 23px;
+}
+
+#table2 table tr th {
+  padding-right: 24px;
+  font-size: 17px;
+}
+
+#table2 table .tr1 {
+  padding-right: 20px;
+  padding-left: 15px;
+}
+
+#table2 table .tr2 {
+  padding-left: 40px;
+}
+
+#table2 table .tr3 {
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+#table2 table .tr4 th {
+  padding-left: 20px;
+}
+
+/* Utility Class */
+.btn {
+  padding: 0px 20px;
+  margin-right: 20px;
+  border-radius: 40px;
+  border: none;
+  cursor: pointer;
+  background-color: #167f92;
+  color: white;
+  font-weight: bold;
+}
+
+.btn i {
+  padding-right: 12px;
+  font-size: 15px;
+}

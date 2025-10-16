@@ -1,0 +1,274 @@
+/* Css Reset */
+* {
+  margin: 0 !important;
+  padding: 0;
+  box-sizing: border-box !important;
+  text-decoration: none !important;
+  list-style: none !important;
+}
+
+/* Navbar section */
+.navbar {
+  display: flex !important;
+  justify-content: center !important;
+  position: fixed;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  z-index: 1;
+}
+
+.navbar ul {
+  text-align: center;
+  display: flex;
+}
+
+.navbar ul li {
+  list-style: none;
+}
+
+.navbar-nav a {
+  color: rgb(216, 216, 216) !important;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 12px !important;
+  font-weight: 400;
+}
+
+.navbar ul li a i {
+  font-size: 18px;
+}
+
+.navbar-brand {
+  visibility: hidden;
+}
+
+/* Home1 Section */
+#home1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 280px;
+  position: relative;
+}
+
+#home1::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 670px;
+  width: 100%;
+  background: url(../Img/hero_iphone16pro_avail__fnf0f9x70jiy_large.jpg)
+    no-repeat center center/cover;
+  z-index: -1;
+}
+
+/* Home2 Section */
+#home2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 280px;
+  position: relative;
+  top: 400px;
+}
+
+#home2::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 670px;
+  width: 100%;
+  background: url(../Img/hero_iphone16_avail__euwzls69btea_large.jpg) no-repeat
+    center center/cover;
+  z-index: -1;
+}
+
+/* Home Section */
+#home3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 280px;
+  position: relative;
+  top: 800px;
+}
+
+#home3::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 670px;
+  width: 100%;
+  background: url(../Img/hero_apple_watch_series_10_avail_lte__esu66gaw6dci_large.jpg)
+    no-repeat center center/cover;
+  z-index: -1;
+}
+
+#services {
+  position: relative;
+  top: 1200px;
+  display: flex;
+  justify-content: center;
+}
+
+.services-box1 {
+  margin-right: 10px !important;
+  background: url(../Img/promo_apple_watch_unity__casvx9ysh1le_large.jpg)
+    no-repeat center center/cover;
+  height: 800px;
+  width: 800px;
+}
+
+.services-box2 {
+  background: url(../Img/promo_valentines_day_2025_announce__e7vadslxheaa_large.png)
+    no-repeat center center/cover;
+  height: 800px;
+  width: 800px;
+}
+
+.services-box3 {
+  margin-right: 10px !important;
+  background: url(https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25446250/247111_iPad_Pro_2024_AKrales_1292.jpg?quality=90&strip=all&crop=0,0,100,100)
+    no-repeat center center/cover;
+  height: 800px;
+  width: 800px;
+}
+
+.services-box4 {
+  background: url(https://dimensiva.com/wp-content/uploads/edd/2024/06/ipad-pro-2024-11-inch-by-apple.jpg)
+    no-repeat center center/cover;
+  height: 800px;
+  width: 800px;
+}
+
+.services-box5 {
+  margin-right: 10px !important;
+  background: url(https://i.guim.co.uk/img/media/c29020b04a7783fa586d0c5093ed09411041747e/0_109_3276_1966/master/3276.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=2795294f036049a16ef21ab370502473)
+    no-repeat center center/cover;
+  height: 800px;
+  width: 800px;
+}
+
+.services-box6 {
+  background: url(https://d1sh47nr05d35z.cloudfront.net/catalog/product/a/p/apple_ipad_pro_13-inch_2024_m4_wifi_256gb_-_silver-3_2.jpg?width=265&height=265&store=default&image-type=image)
+    no-repeat center center/cover;
+  height: 800px;
+  width: 800px;
+}
+
+/* Text section */
+#text {
+  position: relative;
+  top: 1230px;
+  z-index: -1;
+}
+
+#text img {
+  width: 100%;
+}
+
+.marquee {
+  position: relative;
+  top: 1250px;
+  z-index: -1;
+}
+
+/* Footer section */
+#footer {
+  position: relative;
+  top: 1250px;
+  background-color: rgb(244, 242, 242);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 23px;
+  font-size: 13px;
+  opacity: 0.6;
+}
+
+.footerbar {
+  display: flex;
+  justify-content: space-between !important;
+  margin-top: 30px !important;
+}
+
+.footer-box ul li {
+  margin-bottom: 8px !important;
+  font-size: 17px;
+}
+
+.footer-box li a {
+  color: black;
+}
+
+/* Utility class */
+.btn {
+  cursor: pointer;
+  padding: 11px 25px;
+  margin-left: 10px;
+  background-color: #06c !important;
+  color: white !important;
+  font-size: 14px;
+  border: none;
+  border-radius: 50px;
+}
+
+.btn:hover {
+  color: white;
+}
+
+.ntn {
+  cursor: pointer;
+  padding: 9px 25px;
+  margin-left: 10px;
+  background: transparent;
+  color: #06c;
+  font-size: 18px;
+  border: 1px solid #06c;
+  border-radius: 50px;
+}
+
+.ntn:hover {
+  background-color: #06c;
+  color: white;
+}
+
+.btn1 {
+  cursor: pointer;
+  padding: 11px 25px;
+  margin-left: 10px;
+  background-color: rgb(255, 255, 255) !important;
+  color: rgb(0, 0, 0) !important;
+  font-size: 14px;
+  border: none;
+  border-radius: 50px;
+}
+
+.btn1:hover {
+  color: white;
+}
+
+.ntn1 {
+  cursor: pointer;
+  padding: 9px 25px;
+  margin-left: 10px;
+  background: transparent;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 50px;
+}
+
+.ntn1:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}

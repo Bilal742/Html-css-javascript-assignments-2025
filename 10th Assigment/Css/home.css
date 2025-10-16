@@ -1,0 +1,170 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Navbar */
+#navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#navbar h1 {
+  margin-top: 32px;
+  font-size: 2.5rem;
+  padding: 8px;
+  color: green;
+  background-color: lightgreen;
+  width: 800px;
+  text-align: center;
+}
+
+/* Home section */
+#home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 23px;
+  padding-left: 70px;
+  padding-right: 70px;
+  text-align: center;
+}
+
+/* Home-box1 */
+.home-box1 p {
+  margin-top: 32px;
+}
+
+.home-box1 h1 {
+  color: green;
+  text-align: center;
+}
+
+/* Home-box2 */
+.home-box2 h1 {
+  margin-top: 50px;
+}
+
+.home-box2 p {
+  margin-top: 32px;
+}
+
+.home-box2 h1 {
+  color: green;
+}
+
+/* Home-box3 */
+.home-box3 p {
+  margin-top: 32px;
+}
+
+.home-box3 h1 {
+  color: green;
+}
+
+/* Home-box4 */
+.home-box4 p {
+  margin-top: 32px;
+  color: green;
+  font-weight: bold;
+}
+
+.home-box4 h1 {
+  color: green;
+}
+
+/* Home-box5 */
+.home-box5 p {
+  margin-top: 32px;
+}
+
+.home-box5 h1 {
+  color: green;
+}
+
+/* Home-box6 */
+.home-box6 p {
+  margin-top: 32px;
+}
+
+.home-box6 h1 {
+  color: green;
+}
+
+/* Index section */
+#index {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 23px;
+  padding-left: 70px;
+  padding-right: 70px;
+  text-align: center;
+}
+
+/* Index-box1 */
+.index-box1 p {
+  margin-left: 8px;
+}
+
+.index-box1 h1 {
+  color: green;
+}
+
+/* Index-box2 */
+.index-box2 {
+  margin-left: 25px;
+}
+
+.index-box2 h1 {
+  color: green;
+}
+
+/* Index-box3 */
+.index-box3 p {
+  margin-left: 30px;
+}
+
+.index-box3 h1 {
+  color: green;
+}
+
+/* Index-box4 */
+.index-box4 p {
+  color: green;
+  font-weight: bold;
+  text-align: center;
+}
+
+.index-box4 h1 {
+  color: green;
+}
+
+/* Index-box5 */
+.index-box5 h1 {
+  color: green;
+}
+
+/* Index-box6 */
+.index-box6 h1 {
+  color: green;
+}
+
+/* Utility Class */
+.btn {
+  padding: 10px;
+  color: green;
+  background-color: lightgreen;
+  border: 1px solid;
+  margin-top: 12px;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.btn:hover {
+  color: rgb(7, 204, 0);
+  background-color: rgb(255, 255, 255);
+  border: 1px solid;
+}

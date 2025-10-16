@@ -1,0 +1,80 @@
+/* Css Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(141 145 156);
+}
+
+#home-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+#home {
+  display: inline-block;
+}
+
+.home-box {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 35px black;
+  border-radius: 20px;
+  height: 645px;
+  background-color: rgb(141 145 156);
+}
+
+.home-box h1 {
+  margin-top: 30px;
+  font-size: 2rem;
+  padding-left: 40px;
+  padding-right: 30px;
+}
+
+.home-box p {
+  margin-top: 12px;
+  font-size: 1.3rem;
+  padding-left: 40px;
+  padding-right: 30px;
+  margin-bottom: 75px;
+}
+
+.home-box img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+#para {
+  display: flex;
+  padding-left: 40px;
+}
+
+#para .span {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-left: 12px;
+}
+
+#para img {
+  border-radius: 50px;
+}
+
+.btn {
+  padding: 10px;
+  margin-top: 18px;
+  margin-left: 35px;
+  margin-right: 310px;
+  border-radius: 50px;
+  border: none;
+  background-color: #4e80c0;
+  color: white;
+  font-size: 1.1rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  cursor: pointer;
+}

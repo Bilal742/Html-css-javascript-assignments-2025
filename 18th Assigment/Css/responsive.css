@@ -1,0 +1,26 @@
+@media only screen and (max-width: 680px) {
+  #services {
+    flex-wrap: wrap;
+  }
+
+  #footer p {
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  .footerbar {
+    display: flex;
+    margin-top: 30px !important;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .footer-box ul li {
+    font-size: 32px;
+  }
+
+  .footer-box .paraP {
+    font-size: 23px;
+  }
+}

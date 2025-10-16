@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Body styling */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: rgb(37, 37, 43);
+}
+
+/* Home styling */
+#home {
+  display: flex;
+  position: relative;
+  width: 920px;
+  height: 550px;
+  box-shadow: rgb(255, 39, 112) 0px 0px 25px;
+  background: transparent;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(255, 39, 112);
+  border-image: initial;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+/* Bg animate styling */
+.bg-animate {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 850px;
+  height: 720px;
+  transform: rotate(10deg) skewY(40deg);
+  transform-origin: right bottom;
+  background: linear-gradient(40deg, rgb(37, 37, 43), rgb(255, 39, 112));
+  border-bottom: 3px solid rgb(255, 39, 112);
+}
+
+/* Home form box styling */
+#home .form-box {
+  position: absolute;
+  top: 0px;
+  width: 50%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.form-box h2 {
+  font-size: 38px;
+  color: rgb(255, 255, 255);
+  align-items: center;
+}
+
+/* Form box input Styling */
+.form-box .input-box {
+  position: relative;
+  width: 75%;
+  height: 25%;
+  margin: 25px 55px;
+}
+
+.input-box label {
+  position: absolute;
+  top: 40%;
+  left: 0px;
+  transform: translateY(-50%);
+  color: rgb(255, 255, 255);
+  pointer-events: none;
+}
+
+.input-box i {
+  position: absolute;
+  top: 40%;
+  right: 0px;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: white;
+}
+
+.input-box input {
+  width: 100%;
+  height: 90%;
+  color: rgb(255, 255, 255);
+  background: transparent;
+  border-style: none none solid;
+  outline: none;
+  border-bottom: 2px solid rgb(255, 255, 255);
+  transition: 1s;
+}
+
+.input-box input:focus {
+  border-bottom: 2px solid rgb(255, 39, 112);
+  font-size: 20px;
+  margin-top: 12px;
+}
+
+/* Form box1 styling */
+.form-box1 {
+  position: absolute;
+  top: 0px;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form-box1.login {
+  right: 0px;
+  text-align: right;
+  padding: 0px 40px 60px 150px;
+}
+
+.form-box1.login h2 {
+  color: rgb(255, 255, 255);
+  font-size: 49px;
+  line-height: 1.3;
+  text-transform: uppercase;
+}
+
+.form-box1 p {
+  margin-top: 12px;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+}
+
+/* Logreg link styling */
+.logreg-link p {
+  margin-top: 15px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+.logreg-link a {
+  padding-left: 6px;
+  color: rgb(255, 39, 112);
+  text-decoration: none;
+}
+
+/* Utility class */
+.btn {
+  width: 80%;
+  height: 45px;
+  cursor: pointer;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  margin-top: 20px;
+  background: transparent;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(255, 39, 112);
+  border-image: initial;
+  border-radius: 40px;
+  transition: 1.1s;
+}
+
+.btn:hover {
+  background: rgb(255, 39, 112);
+  color: rgb(37, 37, 43);
+}

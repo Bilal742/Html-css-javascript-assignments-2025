@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Functions</title>
+  </head>
+  <body>
+    <h1>JavaScript Function Demonstrations</h1>
+
+    <!-- Display Current Date & Time -->
+    <div>
+      <button onclick="displayDateTime()">Display Current Date & Time</button>
+      <p id="dateTime"></p>
+    </div>
+
+    <!-- Greet User -->
+    <div>
+      <input type="text" id="firstName" placeholder="First Name" />
+      <input type="text" id="lastName" placeholder="Last Name" />
+      <button
+        onclick="greetUser(document.getElementById('firstName').value, document.getElementById('lastName').value)"
+      >
+        Greet User
+      </button>
+    </div>
+
+    <!-- Add Two Numbers -->
+    <div>
+      <button onclick="alert(addNumbers())">Add Two Numbers</button>
+    </div>
+
+    <!-- Calculator -->
+    <div>
+      <input type="number" id="num1" placeholder="First Number" />
+      <input type="number" id="num2" placeholder="Second Number" />
+      <input type="text" id="operator" placeholder="Operator (+, -, *, /)" />
+      <button
+        onclick="calculator(Number(document.getElementById('num1').value), Number(document.getElementById('num2').value), document.getElementById('operator').value)"
+      >
+        Calculate
+      </button>
+      <p id="calcResult"></p>
+    </div>
+
+    <!-- Square the Argument -->
+    <div>
+      <input type="number" id="squareNumber" placeholder="Enter a number" />
+      <button
+        onclick="alert(square(Number(document.getElementById('squareNumber').value)))"
+      >
+        Square the Number
+      </button>
+    </div>
+
+    <!-- Factorial -->
+    <div>
+      <input type="number" id="factorialNumber" placeholder="Enter a number" />
+      <button
+        onclick="alert(factorial(Number(document.getElementById('factorialNumber').value)))"
+      >
+        Find Factorial
+      </button>
+    </div>
+
+    <!-- Count Numbers in a Range -->
+    <div>
+      <input type="number" id="startNumber" placeholder="Start Number" />
+      <input type="number" id="endNumber" placeholder="End Number" />
+      <button
+        onclick="countNumbers(Number(document.getElementById('startNumber').value), Number(document.getElementById('endNumber').value))"
+      >
+        Count Numbers
+      </button>
+      <p id="countDisplay"></p>
+    </div>
+
+    <!-- Hypotenuse Calculation -->
+    <div>
+      <input type="number" id="base" placeholder="Base" />
+      <input type="number" id="perpendicular" placeholder="Perpendicular" />
+      <button
+        onclick="alert(calculateHypotenuse(Number(document.getElementById('base').value), Number(document.getElementById('perpendicular').value)))"
+      >
+        Calculate Hypotenuse
+      </button>
+    </div>
+
+    <!-- Area of Rectangle -->
+    <div>
+      <input type="number" id="width" placeholder="Width" />
+      <input type="number" id="height" placeholder="Height" />
+      <button
+        onclick="alert(rectangleArea(Number(document.getElementById('width').value), Number(document.getElementById('height').value)))"
+      >
+        Calculate Area of Rectangle
+      </button>
+    </div>
+
+    <!-- Palindrome Check -->
+    <div>
+      <input type="text" id="palindromeString" placeholder="Enter a string" />
+      <button
+        onclick="alert(isPalindrome(document.getElementById('palindromeString').value))"
+      >
+        Check Palindrome
+      </button>
+    </div>
+
+    <!-- Capitalize Words -->
+    <div>
+      <input
+        type="text"
+        id="stringToCapitalize"
+        placeholder="Enter a sentence"
+      />
+      <button
+        onclick="alert(capitalizeWords(document.getElementById('stringToCapitalize').value))"
+      >
+        Capitalize Words
+      </button>
+    </div>
+
+    <!-- Find Longest Word -->
+    <div>
+      <input
+        type="text"
+        id="longestWordString"
+        placeholder="Enter a sentence"
+      />
+      <button
+        onclick="alert(longestWord(document.getElementById('longestWordString').value))"
+      >
+        Find Longest Word
+      </button>
+    </div>
+
+    <!-- Count Letter Occurrences -->
+    <div>
+      <input
+        type="text"
+        id="stringForLetterCount"
+        placeholder="Enter a string"
+      />
+      <input type="text" id="letterToCount" placeholder="Enter letter" />
+      <button
+        onclick="alert(countLetterOccurrences(document.getElementById('stringForLetterCount').value, document.getElementById('letterToCount').value))"
+      >
+        Count Letter Occurrences
+      </button>
+    </div>
+
+    <!-- Circle Geometrizer -->
+    <div>
+      <input type="number" id="circleRadius" placeholder="Enter radius" />
+      <button
+        onclick="calcCircumference(Number(document.getElementById('circleRadius').value))"
+      >
+        Calculate Circumference
+      </button>
+      <button
+        onclick="calcArea(Number(document.getElementById('circleRadius').value))"
+      >
+        Calculate Area
+      </button>
+      <p id="circumference"></p>
+      <p id="area"></p>
+    </div>
+    <script src="Js/app.js"></script>
+  </body>
+</html>
